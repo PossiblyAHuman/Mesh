@@ -1,0 +1,77 @@
+h1 {color:white; text-align:center;}
+h3 {color:black; text-align:center;}
+body {background-color: rgb(54, 54, 65);}
+img {
+    border-radius: 4px;
+    height: auto;
+    max-width: 100%;
+}
+
+@media(min-width:1080px){
+    .container0{
+        display: flex;
+        margin: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+        justify-content: center;
+    }
+    
+    .container1{
+        display: flex;
+        margin: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
+        justify-content: space-between;
+    }
+}
+@media(max-width:1080px){
+    .container0{
+        display: flex;
+        margin: 2%;
+        margin-left: 7%;
+        margin-right: 7%;
+        justify-content: center;
+    }
+    
+    .container1{
+        display: flex;
+        margin: 2%;
+        margin-left: 7%;
+        margin-right: 7%;
+        justify-content: space-between;
+    }
+}
+@media(max-width:720px){
+    .container0{
+        display: flex;
+        margin: 2%;
+        justify-content: center;
+    }
+    
+    .container1{
+        display: flex;
+        margin: 2%;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.container0 div{
+    background-color: rgb(73, 71, 92);
+}
+
+.container1 div{
+    background-color: white;
+    border: 1px #ccc solid;
+    padding: 5%;
+}
+
+.Box0 {
+    flex: 1
+}
+.Box1 {
+    flex: 1
+}
+.Box2 {
+    flex: 1
+}
